@@ -14,12 +14,13 @@ public class TestPanels extends JFrame {
         p1.add(new JTextField("Time to be displayed here"));
         p1.add(new JButton("Food to be placed here"));
         add(p1);
-        setSize(300,300);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true);
+
     }
 
     public static void main(String[] args){
         TestPanels gui = new TestPanels();
+        gui.setSize(300,300);
+        gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        gui.setVisible(true);
     }
 }
